@@ -1,4 +1,262 @@
 {
+  "events": [
+    {
+      "id": 1,
+      "title": "Boda Elegante en Jardín",
+      "customerName": "María García y Carlos López",
+      "location": "Jardines del Country Club, Lima",
+      "status": "Activo",
+      "date": "2025-11-15T18:00:00",
+      "type": "Boda",
+      "guests": 150,
+      "budget": 25000,
+      "description": "Ceremonia al aire libre con recepción bajo carpa. Incluye catering premium y decoración floral.",
+      "createdAt": "2025-09-20T10:30:00",
+      "updatedAt": "2025-10-05T14:20:00"
+    },
+    {
+      "id": 2,
+      "title": "Conferencia Tech Summit 2025",
+      "customerName": "Innovation Corp",
+      "location": "Centro de Convenciones Jockey Plaza",
+      "status": "Activo",
+      "date": "2025-10-25T09:00:00",
+      "type": "Corporativo",
+      "guests": 500,
+      "budget": 45000,
+      "description": "Conferencia tecnológica con speakers internacionales. Incluye coffee breaks y almuerzo.",
+      "createdAt": "2025-08-10T08:00:00",
+      "updatedAt": "2025-10-08T16:45:00"
+    },
+    {
+      "id": 3,
+      "title": "Fiesta de 15 Años Sofía",
+      "customerName": "Familia Rodríguez",
+      "location": "Salón de Eventos El Prado",
+      "status": "Por confirmar",
+      "date": "2025-12-20T19:00:00",
+      "type": "Social",
+      "guests": 200,
+      "budget": 18000,
+      "description": "Celebración de quinceañera con vals, cena y show musical.",
+      "createdAt": "2025-09-15T11:00:00",
+      "updatedAt": "2025-10-01T09:30:00"
+    },
+    {
+      "id": 4,
+      "title": "Lanzamiento Producto StarTech",
+      "customerName": "StarTech Solutions",
+      "location": "Hotel Westin Lima",
+      "status": "Activo",
+      "date": "2025-11-05T16:00:00",
+      "type": "Corporativo",
+      "guests": 120,
+      "budget": 32000,
+      "description": "Evento de lanzamiento con presentación multimedia y cocktail ejecutivo.",
+      "createdAt": "2025-09-01T14:00:00",
+      "updatedAt": "2025-10-07T10:15:00"
+    },
+    {
+      "id": 5,
+      "title": "Boda Íntima en la Playa",
+      "customerName": "Andrea Vega y Miguel Torres",
+      "location": "Club Náutico, Ancón",
+      "status": "Cancelado",
+      "date": "2025-10-18T17:00:00",
+      "type": "Boda",
+      "guests": 80,
+      "budget": 15000,
+      "description": "Ceremonia junto al mar con cena mariscos. Cancelado por cambio de fecha.",
+      "createdAt": "2025-07-20T09:00:00",
+      "updatedAt": "2025-10-02T13:00:00"
+    },
+    {
+      "id": 6,
+      "title": "Gala Benéfica Fundación Esperanza",
+      "customerName": "Fundación Esperanza",
+      "location": "Gran Teatro Nacional",
+      "status": "Activo",
+      "date": "2025-11-30T19:30:00",
+      "type": "Beneficencia",
+      "guests": 300,
+      "budget": 38000,
+      "description": "Cena de gala con subasta benéfica y show artístico.",
+      "createdAt": "2025-08-25T10:00:00",
+      "updatedAt": "2025-10-06T15:30:00"
+    },
+    {
+      "id": 7,
+      "title": "Aniversario Corporativo 25 Años",
+      "customerName": "Constructora Del Sur SAC",
+      "location": "Country Club El Bosque",
+      "status": "Por confirmar",
+      "date": "2026-01-15T20:00:00",
+      "type": "Corporativo",
+      "guests": 250,
+      "budget": 42000,
+      "description": "Celebración de aniversario con cena formal y espectáculo musical.",
+      "createdAt": "2025-09-30T11:30:00",
+      "updatedAt": "2025-10-09T09:00:00"
+    },
+    {
+      "id": 8,
+      "title": "Cumpleaños Infantil Mateo",
+      "customerName": "Familia Sánchez",
+      "location": "Parque de la Amistad",
+      "status": "Activo",
+      "date": "2025-10-28T15:00:00",
+      "type": "Social",
+      "guests": 50,
+      "budget": 3500,
+      "description": "Fiesta temática de superhéroes con animación y juegos.",
+      "createdAt": "2025-09-10T14:00:00",
+      "updatedAt": "2025-10-04T12:00:00"
+    },
+    {
+      "id": 9,
+      "title": "Workshop Innovación Digital",
+      "customerName": "Digital Hub Peru",
+      "location": "Coworking Spaces Miraflores",
+      "status": "Activo",
+      "date": "2025-10-22T10:00:00",
+      "type": "Educativo",
+      "guests": 60,
+      "budget": 8500,
+      "description": "Taller intensivo de transformación digital con expertos internacionales.",
+      "createdAt": "2025-09-05T09:00:00",
+      "updatedAt": "2025-10-03T16:00:00"
+    },
+    {
+      "id": 10,
+      "title": "Boda Campestre Premium",
+      "customerName": "Lucía Paredes y Roberto Díaz",
+      "location": "Hacienda San Juan, Pachacamac",
+      "status": "Activo",
+      "date": "2025-12-07T17:30:00",
+      "type": "Boda",
+      "guests": 180,
+      "budget": 35000,
+      "description": "Boda campestre con ceremonia al atardecer y recepción en hacienda colonial.",
+      "createdAt": "2025-08-15T10:00:00",
+      "updatedAt": "2025-10-08T11:30:00"
+    },
+    {
+      "id": 11,
+      "title": "Reunión Anual Accionistas",
+      "customerName": "Inversiones Pacifico SAA",
+      "location": "Hotel Country Club Lima",
+      "status": "Por confirmar",
+      "date": "2026-02-10T09:00:00",
+      "type": "Corporativo",
+      "guests": 80,
+      "budget": 22000,
+      "description": "Junta anual con presentación de resultados y almuerzo ejecutivo.",
+      "createdAt": "2025-10-01T08:00:00",
+      "updatedAt": "2025-10-09T14:00:00"
+    },
+    {
+      "id": 12,
+      "title": "Festival Gastronómico",
+      "customerName": "Cámara de Comercio Lima",
+      "location": "Plaza Mayor de Lima",
+      "status": "Activo",
+      "date": "2025-11-12T12:00:00",
+      "type": "Cultural",
+      "guests": 1000,
+      "budget": 65000,
+      "description": "Festival al aire libre con stands de restaurantes y show en vivo.",
+      "createdAt": "2025-07-30T10:00:00",
+      "updatedAt": "2025-10-05T17:00:00"
+    },
+    {
+      "id": 13,
+      "title": "Graduación Promoción 2025",
+      "customerName": "Colegio San Agustín",
+      "location": "Auditorio Municipal San Isidro",
+      "status": "Activo",
+      "date": "2025-12-15T18:00:00",
+      "type": "Educativo",
+      "guests": 350,
+      "budget": 28000,
+      "description": "Ceremonia de graduación con entrega de diplomas y cena buffet.",
+      "createdAt": "2025-08-20T09:30:00",
+      "updatedAt": "2025-10-07T13:45:00"
+    },
+    {
+      "id": 14,
+      "title": "Concierto Benéfico Jazz Night",
+      "customerName": "Asociación Cultural Lima",
+      "location": "Teatro Británico",
+      "status": "Cancelado",
+      "date": "2025-10-30T20:00:00",
+      "type": "Cultural",
+      "guests": 200,
+      "budget": 18000,
+      "description": "Concierto de jazz con artistas locales. Cancelado por problemas logísticos.",
+      "createdAt": "2025-08-05T11:00:00",
+      "updatedAt": "2025-10-01T15:00:00"
+    },
+    {
+      "id": 15,
+      "title": "Feria Empresarial ExpoNegocios",
+      "customerName": "Cámara de Comercio Perú",
+      "location": "Centro de Exposiciones Jockey",
+      "status": "Activo",
+      "date": "2025-11-20T10:00:00",
+      "type": "Corporativo",
+      "guests": 800,
+      "budget": 75000,
+      "description": "Feria de negocios con stands empresariales y conferencias magistrales.",
+      "createdAt": "2025-07-15T08:00:00",
+      "updatedAt": "2025-10-08T09:30:00"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "María García",
+      "email": "maria.garcia@email.com",
+      "phone": "+51 999 888 777",
+      "company": null
+    },
+    {
+      "id": 2,
+      "name": "Innovation Corp",
+      "email": "eventos@innovationcorp.pe",
+      "phone": "+51 999 777 666",
+      "company": "Innovation Corp SAC"
+    },
+    {
+      "id": 3,
+      "name": "Familia Rodríguez",
+      "email": "rodriguez.familia@email.com",
+      "phone": "+51 988 777 555",
+      "company": null
+    }
+  ],
+  "venues": [
+    {
+      "id": 1,
+      "name": "Jardines del Country Club",
+      "address": "Av. Country Club 123, Lima",
+      "capacity": 200,
+      "type": "Jardín"
+    },
+    {
+      "id": 2,
+      "name": "Centro de Convenciones Jockey Plaza",
+      "address": "Av. Jockey Plaza 250, Santiago de Surco",
+      "capacity": 1000,
+      "type": "Centro de Convenciones"
+    },
+    {
+      "id": 3,
+      "name": "Salón de Eventos El Prado",
+      "address": "Jr. El Prado 456, San Isidro",
+      "capacity": 250,
+      "type": "Salón"
+    }
+  ],
   "quotes": [
     {
       "id": "quote_1704123456789_abc123",
