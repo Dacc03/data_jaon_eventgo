@@ -1,61 +1,4 @@
 {
-  "users": [
-    {
-      "id": "user_1",
-      "email": "juan.perez@eventgo.com",
-      "password": "password123",
-      "fullName": "Juan Pérez García",
-      "role": "organizer",
-      "phone": "+51 999 123 456",
-      "avatar": "https://i.pravatar.cc/150?img=10",
-      "isActive": true,
-      "createdAt": "2025-01-15T10:00:00.000Z"
-    },
-    {
-      "id": "user_2",
-      "email": "maria.lopez@eventgo.com",
-      "password": "password123",
-      "fullName": "María López Ramírez",
-      "role": "organizer",
-      "phone": "+51 999 234 567",
-      "avatar": "https://i.pravatar.cc/150?img=5",
-      "isActive": true,
-      "createdAt": "2025-02-10T14:30:00.000Z"
-    },
-    {
-      "id": "user_3",
-      "email": "carlos.sanchez@gmail.com",
-      "password": "password123",
-      "fullName": "Carlos Sánchez Torres",
-      "role": "client",
-      "phone": "+51 987 654 321",
-      "avatar": "https://i.pravatar.cc/150?img=12",
-      "isActive": true,
-      "createdAt": "2025-03-05T09:15:00.000Z"
-    },
-    {
-      "id": "user_4",
-      "email": "andrea.vega@eventgo.com",
-      "password": "password123",
-      "fullName": "Andrea Vega Morales",
-      "role": "organizer",
-      "phone": "+51 999 345 678",
-      "avatar": "https://i.pravatar.cc/150?img=16",
-      "isActive": true,
-      "createdAt": "2025-01-20T11:45:00.000Z"
-    },
-    {
-      "id": "user_5",
-      "email": "test@test.com",
-      "password": "test123",
-      "fullName": "Usuario Prueba Demo",
-      "role": "organizer",
-      "phone": "+51 999 999 999",
-      "avatar": "https://i.pravatar.cc/150?img=20",
-      "isActive": true,
-      "createdAt": "2025-04-01T08:00:00.000Z"
-    }
-  ],
   "events": [
     {
       "id": 1,
@@ -704,5 +647,32 @@
       "phone": "+51 999 888 777",
       "avatar": "https://i.pravatar.cc/150?img=1"
     }
+  ],
+  "users": [
+    {
+      "id": "user_admin",
+      "name": "EventGo Admin",
+      "email": "admin@eventgo.com",
+      "password": "Admin123!",
+      "role": "admin",
+      "profileImage": "",
+      "status": "active",
+      "emailVerified": true,
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "user_organizer",
+      "name": "Carla Mendoza",
+      "email": "carla@eventgo.com",
+      "password": "Organizer123",
+      "role": "organizer",
+      "profileImage": "",
+      "status": "active",
+      "emailVerified": false,
+      "createdAt": "2025-02-15T12:00:00.000Z",
+      "updatedAt": "2025-02-15T12:00:00.000Z"
+    }
   ]
+}
 }
