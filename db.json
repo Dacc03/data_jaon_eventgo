@@ -1,30 +1,73 @@
 {
-  "users":[
+  "users": [
     {
-  "id": "user_1",
-  "email": "juan.perez@eventgo.com",
-  "password": "password123",
-  "fullName": "Juan Pérez García",
-  "role": "organizer",
-  "phone": "+51 999 123 456",
-  "avatar": "https://i.pravatar.cc/150?img=10",
-  "isActive": true,
-  "createdAt": "2025-01-15T10:00:00.000Z"
-},
-    
+      "id": "user_1",
+      "email": "juan.perez@eventgo.com",
+      "password": "password123",
+      "fullName": "Juan Pérez García",
+      "role": "organizer",
+      "phone": "+51 999 123 456",
+      "avatar": "https://i.pravatar.cc/150?img=10",
+      "isActive": true,
+      "createdAt": "2025-01-15T10:00:00.000Z"
+    },
+    {
+      "id": "user_2",
+      "email": "maria.lopez@eventgo.com",
+      "password": "password123",
+      "fullName": "María López Ramírez",
+      "role": "organizer",
+      "phone": "+51 999 234 567",
+      "avatar": "https://i.pravatar.cc/150?img=5",
+      "isActive": true,
+      "createdAt": "2025-02-10T14:30:00.000Z"
+    },
+    {
+      "id": "user_3",
+      "email": "carlos.sanchez@gmail.com",
+      "password": "password123",
+      "fullName": "Carlos Sánchez Torres",
+      "role": "client",
+      "phone": "+51 987 654 321",
+      "avatar": "https://i.pravatar.cc/150?img=12",
+      "isActive": true,
+      "createdAt": "2025-03-05T09:15:00.000Z"
+    },
+    {
+      "id": "user_4",
+      "email": "andrea.vega@eventgo.com",
+      "password": "password123",
+      "fullName": "Andrea Vega Morales",
+      "role": "organizer",
+      "phone": "+51 999 345 678",
+      "avatar": "https://i.pravatar.cc/150?img=16",
+      "isActive": true,
+      "createdAt": "2025-01-20T11:45:00.000Z"
+    },
+    {
+      "id": "user_5",
+      "email": "test@test.com",
+      "password": "test123",
+      "fullName": "Usuario Prueba Demo",
+      "role": "organizer",
+      "phone": "+51 999 999 999",
+      "avatar": "https://i.pravatar.cc/150?img=20",
+      "isActive": true,
+      "createdAt": "2025-04-01T08:00:00.000Z"
+    }
   ],
   "events": [
     {
       "id": 1,
-      "title": "Boda Elegante en JardÃ­n",
-      "customerName": "MarÃ­a GarcÃ­a y Carlos LÃ³pez",
+      "title": "Boda Elegante en Jardín",
+      "customerName": "María García y Carlos López",
       "location": "Jardines del Country Club, Lima",
       "status": "Activo",
       "date": "2025-11-15T18:00:00",
       "type": "Boda",
       "guests": 150,
       "budget": 25000,
-      "description": "Ceremonia al aire libre con recepciÃ³n bajo carpa. Incluye catering premium y decoraciÃ³n floral.",
+      "description": "Ceremonia al aire libre con recepción bajo carpa. Incluye catering premium y decoración floral.",
       "createdAt": "2025-09-20T10:30:00",
       "updatedAt": "2025-10-05T14:20:00"
     },
@@ -38,21 +81,21 @@
       "type": "Corporativo",
       "guests": 500,
       "budget": 45000,
-      "description": "Conferencia tecnolÃ³gica con speakers internacionales. Incluye coffee breaks y almuerzo.",
+      "description": "Conferencia tecnológica con speakers internacionales. Incluye coffee breaks y almuerzo.",
       "createdAt": "2025-08-10T08:00:00",
       "updatedAt": "2025-10-08T16:45:00"
     },
     {
       "id": 3,
-      "title": "Fiesta de 15 AÃ±os SofÃ­a",
-      "customerName": "Familia RodrÃ­guez",
-      "location": "SalÃ³n de Eventos El Prado",
+      "title": "Fiesta de 15 Años Sofía",
+      "customerName": "Familia Rodríguez",
+      "location": "Salón de Eventos El Prado",
       "status": "Por confirmar",
       "date": "2025-12-20T19:00:00",
       "type": "Social",
       "guests": 200,
       "budget": 18000,
-      "description": "CelebraciÃ³n de quinceaÃ±era con vals, cena y show musical.",
+      "description": "Celebración de quinceañera con vals, cena y show musical.",
       "createdAt": "2025-09-15T11:00:00",
       "updatedAt": "2025-10-01T09:30:00"
     },
@@ -66,15 +109,15 @@
       "type": "Corporativo",
       "guests": 120,
       "budget": 32000,
-      "description": "Evento de lanzamiento con presentaciÃ³n multimedia y cocktail ejecutivo.",
+      "description": "Evento de lanzamiento con presentación multimedia y cocktail ejecutivo.",
       "createdAt": "2025-09-01T14:00:00",
       "updatedAt": "2025-10-07T10:15:00"
     },
     {
       "id": 5,
-      "title": "Boda Ãntima en la Playa",
+      "title": "Boda Íntima en la Playa",
       "customerName": "Andrea Vega y Miguel Torres",
-      "location": "Club NÃ¡utico, AncÃ³n",
+      "location": "Club Náutico, Ancón",
       "status": "Cancelado",
       "date": "2025-10-18T17:00:00",
       "type": "Boda",
@@ -86,21 +129,21 @@
     },
     {
       "id": 6,
-      "title": "Gala BenÃ©fica FundaciÃ³n Esperanza",
-      "customerName": "FundaciÃ³n Esperanza",
+      "title": "Gala Benéfica Fundación Esperanza",
+      "customerName": "Fundación Esperanza",
       "location": "Gran Teatro Nacional",
       "status": "Activo",
       "date": "2025-11-30T19:30:00",
       "type": "Beneficencia",
       "guests": 300,
       "budget": 38000,
-      "description": "Cena de gala con subasta benÃ©fica y show artÃ­stico.",
+      "description": "Cena de gala con subasta benéfica y show artístico.",
       "createdAt": "2025-08-25T10:00:00",
       "updatedAt": "2025-10-06T15:30:00"
     },
     {
       "id": 7,
-      "title": "Aniversario Corporativo 25 AÃ±os",
+      "title": "Aniversario Corporativo 25 Años",
       "customerName": "Constructora Del Sur SAC",
       "location": "Country Club El Bosque",
       "status": "Por confirmar",
@@ -108,27 +151,27 @@
       "type": "Corporativo",
       "guests": 250,
       "budget": 42000,
-      "description": "CelebraciÃ³n de aniversario con cena formal y espectÃ¡culo musical.",
+      "description": "Celebración de aniversario con cena formal y espectáculo musical.",
       "createdAt": "2025-09-30T11:30:00",
       "updatedAt": "2025-10-09T09:00:00"
     },
     {
       "id": 8,
-      "title": "CumpleaÃ±os Infantil Mateo",
-      "customerName": "Familia SÃ¡nchez",
+      "title": "Cumpleaños Infantil Mateo",
+      "customerName": "Familia Sánchez",
       "location": "Parque de la Amistad",
       "status": "Activo",
       "date": "2025-10-28T15:00:00",
       "type": "Social",
       "guests": 50,
       "budget": 3500,
-      "description": "Fiesta temÃ¡tica de superhÃ©roes con animaciÃ³n y juegos.",
+      "description": "Fiesta temática de superhéroes con animación y juegos.",
       "createdAt": "2025-09-10T14:00:00",
       "updatedAt": "2025-10-04T12:00:00"
     },
     {
       "id": 9,
-      "title": "Workshop InnovaciÃ³n Digital",
+      "title": "Workshop Innovación Digital",
       "customerName": "Digital Hub Peru",
       "location": "Coworking Spaces Miraflores",
       "status": "Activo",
@@ -136,27 +179,27 @@
       "type": "Educativo",
       "guests": 60,
       "budget": 8500,
-      "description": "Taller intensivo de transformaciÃ³n digital con expertos internacionales.",
+      "description": "Taller intensivo de transformación digital con expertos internacionales.",
       "createdAt": "2025-09-05T09:00:00",
       "updatedAt": "2025-10-03T16:00:00"
     },
     {
       "id": 10,
       "title": "Boda Campestre Premium",
-      "customerName": "LucÃ­a Paredes y Roberto DÃ­az",
+      "customerName": "Lucía Paredes y Roberto Díaz",
       "location": "Hacienda San Juan, Pachacamac",
       "status": "Activo",
       "date": "2025-12-07T17:30:00",
       "type": "Boda",
       "guests": 180,
       "budget": 35000,
-      "description": "Boda campestre con ceremonia al atardecer y recepciÃ³n en hacienda colonial.",
+      "description": "Boda campestre con ceremonia al atardecer y recepción en hacienda colonial.",
       "createdAt": "2025-08-15T10:00:00",
       "updatedAt": "2025-10-08T11:30:00"
     },
     {
       "id": 11,
-      "title": "ReuniÃ³n Anual Accionistas",
+      "title": "Reunión Anual Accionistas",
       "customerName": "Inversiones Pacifico SAA",
       "location": "Hotel Country Club Lima",
       "status": "Por confirmar",
@@ -164,14 +207,14 @@
       "type": "Corporativo",
       "guests": 80,
       "budget": 22000,
-      "description": "Junta anual con presentaciÃ³n de resultados y almuerzo ejecutivo.",
+      "description": "Junta anual con presentación de resultados y almuerzo ejecutivo.",
       "createdAt": "2025-10-01T08:00:00",
       "updatedAt": "2025-10-09T14:00:00"
     },
     {
       "id": 12,
-      "title": "Festival GastronÃ³mico",
-      "customerName": "CÃ¡mara de Comercio Lima",
+      "title": "Festival Gastronómico",
+      "customerName": "Cámara de Comercio Lima",
       "location": "Plaza Mayor de Lima",
       "status": "Activo",
       "date": "2025-11-12T12:00:00",
@@ -184,36 +227,36 @@
     },
     {
       "id": 13,
-      "title": "GraduaciÃ³n PromociÃ³n 2025",
-      "customerName": "Colegio San AgustÃ­n",
+      "title": "Graduación Promoción 2025",
+      "customerName": "Colegio San Agustín",
       "location": "Auditorio Municipal San Isidro",
       "status": "Activo",
       "date": "2025-12-15T18:00:00",
       "type": "Educativo",
       "guests": 350,
       "budget": 28000,
-      "description": "Ceremonia de graduaciÃ³n con entrega de diplomas y cena buffet.",
+      "description": "Ceremonia de graduación con entrega de diplomas y cena buffet.",
       "createdAt": "2025-08-20T09:30:00",
       "updatedAt": "2025-10-07T13:45:00"
     },
     {
       "id": 14,
-      "title": "Concierto BenÃ©fico Jazz Night",
-      "customerName": "AsociaciÃ³n Cultural Lima",
-      "location": "Teatro BritÃ¡nico",
+      "title": "Concierto Benéfico Jazz Night",
+      "customerName": "Asociación Cultural Lima",
+      "location": "Teatro Británico",
       "status": "Cancelado",
       "date": "2025-10-30T20:00:00",
       "type": "Cultural",
       "guests": 200,
       "budget": 18000,
-      "description": "Concierto de jazz con artistas locales. Cancelado por problemas logÃ­sticos.",
+      "description": "Concierto de jazz con artistas locales. Cancelado por problemas logísticos.",
       "createdAt": "2025-08-05T11:00:00",
       "updatedAt": "2025-10-01T15:00:00"
     },
     {
       "id": 15,
       "title": "Feria Empresarial ExpoNegocios",
-      "customerName": "CÃ¡mara de Comercio PerÃº",
+      "customerName": "Cámara de Comercio Perú",
       "location": "Centro de Exposiciones Jockey",
       "status": "Activo",
       "date": "2025-11-20T10:00:00",
@@ -228,7 +271,7 @@
   "customers": [
     {
       "id": 1,
-      "name": "MarÃ­a GarcÃ­a",
+      "name": "María García",
       "email": "maria.garcia@email.com",
       "phone": "+51 999 888 777",
       "company": null
@@ -242,7 +285,7 @@
     },
     {
       "id": 3,
-      "name": "Familia RodrÃ­guez",
+      "name": "Familia Rodríguez",
       "email": "rodriguez.familia@email.com",
       "phone": "+51 988 777 555",
       "company": null
@@ -254,7 +297,7 @@
       "name": "Jardines del Country Club",
       "address": "Av. Country Club 123, Lima",
       "capacity": 200,
-      "type": "JardÃ­n"
+      "type": "Jardín"
     },
     {
       "id": 2,
@@ -265,10 +308,10 @@
     },
     {
       "id": 3,
-      "name": "SalÃ³n de Eventos El Prado",
+      "name": "Salón de Eventos El Prado",
       "address": "Jr. El Prado 456, San Isidro",
       "capacity": 250,
-      "type": "SalÃ³n"
+      "type": "Salón"
     }
   ],
   "quotes": [
@@ -589,7 +632,7 @@
       "event": {
         "id": "event_6",
         "type": "FIFTEEN_YEARS",
-        "name": "Sofia's QuinceaÃ±era",
+        "name": "Sofia's Quinceañera",
         "date": "2025-07-11T00:00:00.000Z",
         "location": "Grand Ballroom San Isidro",
         "numberOfGuests": 120
@@ -651,44 +694,6 @@
       "total": 23482,
       "createdAt": "2025-04-01T11:00:00.000Z",
       "updatedAt": "2025-10-09T04:22:57.188Z"
-    }
-  ],
-  "customers": [
-    {
-      "id": "customer_1",
-      "name": "Maria Lopez",
-      "email": "maria.lopez@gmail.com",
-      "phone": "+51 987 654 321"
-    },
-    {
-      "id": "customer_2",
-      "name": "ABC Company",
-      "email": "contact@abccompany.com",
-      "phone": "+51 912 345 678"
-    },
-    {
-      "id": "customer_3",
-      "name": "Company XYZ",
-      "email": "events@xyz.com",
-      "phone": "+51 923 456 789"
-    },
-    {
-      "id": "customer_4",
-      "name": "Ana Rodriguez",
-      "email": "ana.rodriguez@hotmail.com",
-      "phone": "+51 934 567 890"
-    },
-    {
-      "id": "customer_5",
-      "name": "Sanchez Family",
-      "email": "sanchez.family@gmail.com",
-      "phone": "+51 945 678 901"
-    },
-    {
-      "id": "customer_6",
-      "name": "Diaz Family",
-      "email": "diaz.celebration@yahoo.com",
-      "phone": "+51 956 789 012"
     }
   ],
   "organizers": [
