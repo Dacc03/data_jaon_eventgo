@@ -650,28 +650,54 @@
   ],
   "users": [
     {
-      "id": "user_admin",
-      "name": "EventGo Admin",
-      "email": "admin@eventgo.com",
-      "password": "Admin123!",
-      "role": "admin",
-      "profileImage": "",
+      "id": 1,
+      "name": "Laura Paredes",
+      "email": "laura.paredes@example.com",
+      "password": "EventGo123!",
+      "role": "host",
+      "profileImage": "https://i.pravatar.cc/150?img=47",
+      "phone": "+51 987 111 222",
+      "city": "Miraflores, Lima",
+      "description": "Anfitriona apasionada por crear experiencias memorables en casa y eventos sociales pequeños.",
+      "socialLinks": [
+        { "type": "instagram", "url": "https://instagram.com/laurahost" },
+        { "type": "facebook", "url": "https://facebook.com/laurahost" }
+      ],
+      "metrics": {
+        "eventsOrganized": 8,
+        "rating": 4.6,
+        "customers": 32,
+        "experienceYears": 2
+      },
       "status": "active",
       "emailVerified": true,
-      "createdAt": "2025-01-01T00:00:00.000Z",
-      "updatedAt": "2025-01-01T00:00:00.000Z"
+      "createdAt": "2025-01-10T12:00:00.000Z",
+      "updatedAt": "2025-01-10T12:00:00.000Z"
     },
     {
-      "id": "user_organizer",
-      "name": "Carla Mendoza",
-      "email": "carla@eventgo.com",
-      "password": "Organizer123",
+      "id": 2,
+      "name": "Andrés Robles",
+      "email": "andres.robles@example.com",
+      "password": "EventGo123!",
       "role": "organizer",
-      "profileImage": "",
+      "profileImage": "https://i.pravatar.cc/150?img=15",
+      "phone": "+51 945 333 444",
+      "city": "Santiago de Surco, Lima",
+      "description": "Organizador profesional especializado en bodas y eventos corporativos de mediana escala.",
+      "socialLinks": [
+        { "type": "linkedin", "url": "https://linkedin.com/in/andresrobles" },
+        { "type": "instagram", "url": "https://instagram.com/robles.events" }
+      ],
+      "metrics": {
+        "eventsOrganized": 42,
+        "rating": 4.9,
+        "customers": 120,
+        "experienceYears": 6
+      },
       "status": "active",
-      "emailVerified": false,
-      "createdAt": "2025-02-15T12:00:00.000Z",
-      "updatedAt": "2025-02-15T12:00:00.000Z"
+      "emailVerified": true,
+      "createdAt": "2025-01-12T09:30:00.000Z",
+      "updatedAt": "2025-01-12T09:30:00.000Z"
     }
   ]
 }
